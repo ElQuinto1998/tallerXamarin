@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios.Views.InstagramPage">
+    <StackLayout Orientation="Vertical">
+        <StackLayout Padding="5">
+            <Label Text="ElQuinto98"/>
+        </StackLayout>
+        <Image Source="imagen.jfif"/>
+        <StackLayout Orientation="Horizontal" Padding="3">
+            <Button Text="Like" BackgroundColor="White" FontSize="10" TextColor="#127ac7"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    CornerRadius="40"/>
+            <Button Text="Comment" BackgroundColor="White" FontSize="10" TextColor="#127ac7"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    CornerRadius="40"/>
+            <Button Text="Share" BackgroundColor="White" FontSize="10" TextColor="#127ac7"
+                    WidthRequest="80"
+                    HeightRequest="00"
+                    CornerRadius="40"/>
+        </StackLayout>
+        <StackLayout Padding="5">
+            <BoxView HeightRequest="1" Color="#f0f0f0" />
+            <Label Text="700 likes" FontAttributes="Bold" TextColor="#127ac7"/>
+            <Label Text="Disfrutando de las maravillas de Xamarin" TextColor="Gray"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
